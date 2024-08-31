@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Default_Pbr
-    second: {fileID: 2100000, guid: 615ebc76f8b5b6c49b71122ac0958618, type: 2}
+    second: {fileID: 2100000, guid: b6318a2e7a5a30f41af122f487b3f03f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Gray_Pbr
-    second: {fileID: 2100000, guid: b6318a2e7a5a30f41af122f487b3f03f, type: 2}
+    second: {fileID: 2100000, guid: 28e4fd961f0e87e46962c1c60781f018, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -33,7 +33,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: metal_Pbr
-    second: {fileID: 2100000, guid: 22e27501e6946fb4bb4986a0dac13427, type: 2}
+    second: {fileID: 2100000, guid: 1e5e855084cb41f43a88c8e8b176e859, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -97,7 +97,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: SHOGUN|Damage Taken
+      name: SHOGUN|DamageTaken
       takeName: SHOGUN_Blender_Rigify|0_DamageTaken Retarget
       internalID: -5413925858791492935
       firstFrame: 0
@@ -131,6 +131,35 @@ ModelImporter:
       internalID: 7075714106140562080
       firstFrame: 0
       lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SHOGUN|Idle
+      takeName: SHOGUN_Blender_Rigify|0_Idle Retarget
+      internalID: -7097040534824410996
+      firstFrame: 0
+      lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -270,7 +299,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.015
+    globalScale: 1.5
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
